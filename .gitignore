@@ -1,5 +1,7 @@
 bin/
 gen/
 obj/
+src/Main.java
+src/libcore
 libs/*/*.so
 
