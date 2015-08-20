@@ -2,6 +2,7 @@ bin/
 gen/
 obj/
 src/*.java~
+src/Ma*.java
 src/libcore
 libs/*/*.so
 
