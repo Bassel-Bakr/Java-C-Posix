@@ -25,9 +25,9 @@ public class C {
 
 	public static FileDescriptor accept(FileDescriptor a, InetSocketAddress b) {
 		return (FileDescriptor) invoke(Thread.currentThread().
-																	 getStackTrace()[2].
-																	 getMethodName(),
-																	 a, b);
+                                   getStackTrace()[2].
+                                   getMethodName(),
+                                   a, b);
 	}
 
 	public static boolean access(String a, int b) {
@@ -837,9 +837,9 @@ public class C {
 	}
 
 
-	private static <T> T invoke(String func, Object... args) {
+	private static Object invoke(String func, Object... args) {
 		try {
-			return (T) map.get(func).
+			return map.get(func).
 				invoke(
 				os_instance, 
 				args);
@@ -868,24 +868,24 @@ public class C {
 		map = new HashMap<String, Method>();
 		try {
 			Class<?> osc = Class.forName("libcore.io.Os");
-			os_instance = Class
-				.forName("libcore.io.Libcore")
-				.getDeclaredField("os")
-				.get(null);
+			os_instance = Class.
+				forName("libcore.io.Libcore").
+				getDeclaredField("os").
+				get(null);
 			Method[] osc_functions = osc.getDeclaredMethods();
 			for (Method m : osc_functions) {
 				m.setAccessible(true);
 				map.put(m.getName(), m);
 			}
 		} catch (Exception e) {
-
+      e.printStackTrace();
 		}
 	}
 
 	private static HashMap<String, Method> map;
 	private static Object os_instance;
-
-	public static int AF_INET,
+	public static int 
+  AF_INET,
 	AF_INET6,
 	AF_UNIX,
 	AF_UNSPEC,
