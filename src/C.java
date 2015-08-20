@@ -24,816 +24,931 @@ import libcore.util.MutableLong;
 public class C {
 
 	public static FileDescriptor accept(FileDescriptor a, InetSocketAddress b) {
-		return (FileDescriptor) invoke(Thread.currentThread().
-                                   getStackTrace()[2].
-                                   getMethodName(),
-                                   a, b);
+		return (FileDescriptor) invoke(
+      Thread.currentThread().
+      getStackTrace()[2].
+      getMethodName(),
+      a, b);
 	}
 
 	public static boolean access(String a, int b) {
-		return (boolean) invoke(Thread.currentThread().
-														getStackTrace()[2].
-														getMethodName(),
-														a, b);
+		return (boolean) invoke(
+      Thread.currentThread().
+      getStackTrace()[2].
+      getMethodName(),
+      a, b);
 	}
 
 	public static void bind(FileDescriptor a, InetAddress b, int c) {
-		invoke(Thread.currentThread().
-					 getStackTrace()[2].
-					 getMethodName(),
-					 a, b, c);
+		invoke(
+      Thread.currentThread().
+      getStackTrace()[2].
+      getMethodName(),
+      a, b, c);
 	}
 
 	public static void chmod(String a, int b) {
-		invoke(Thread.currentThread().
-					 getStackTrace()[2].
-					 getMethodName(),
-					 a, b);
+		invoke(
+      Thread.currentThread().
+      getStackTrace()[2].
+      getMethodName(),
+      a, b);
 	}
 
 	public static void chown(String a, int b, int c) {
-		invoke(Thread.currentThread().
-					 getStackTrace()[2].
-					 getMethodName(),
-					 a, b, c);
+		invoke(
+      Thread.currentThread().
+      getStackTrace()[2].
+      getMethodName(),
+      a, b, c);
 	}
 
 	public static void close(FileDescriptor a) {
-		invoke(Thread.currentThread().
-					 getStackTrace()[2].
-					 getMethodName(),
-					 a);
+		invoke(
+      Thread.currentThread().
+      getStackTrace()[2].
+      getMethodName(),
+      a);
 	}
 
 	public static void connect(FileDescriptor a, InetAddress b, int c) {
-		invoke(Thread.currentThread().
-					 getStackTrace()[2].
-					 getMethodName(),
-					 a, b, c);
+		invoke(
+      Thread.currentThread().
+      getStackTrace()[2].
+      getMethodName(),
+      a, b, c);
 	}
 
 	public static FileDescriptor dup(FileDescriptor a) {
-		return (FileDescriptor) invoke(Thread.currentThread().
-																	 getStackTrace()[2].
-																	 getMethodName(),
-																	 a);
+		return (FileDescriptor) invoke(
+      Thread.currentThread().
+      getStackTrace()[2].
+      getMethodName(),
+      a);
 	}
 
 	public static FileDescriptor dup2(FileDescriptor a, int b) {
-		return (FileDescriptor) invoke(Thread.currentThread().
-																	 getStackTrace()[2].
-																	 getMethodName(),
-																	 a, b);
+		return (FileDescriptor) invoke(
+      Thread.currentThread().
+      getStackTrace()[2].
+      getMethodName(),
+      a, b);
 	}
 
 	public static String[] environ() {
-		return (String[]) invoke(Thread.currentThread().
-														 getStackTrace()[2].
-														 getMethodName());
+		return (String[]) invoke(
+      Thread.currentThread().
+      getStackTrace()[2].
+      getMethodName());
 	}
 
 	public static void execv(String a, String[] b) {
-		invoke(Thread.currentThread().
-					 getStackTrace()[2].
-					 getMethodName(),
-					 a, b);
+		invoke(
+      Thread.currentThread().
+      getStackTrace()[2].
+      getMethodName(),
+      a, b);
 	}
 
 	public static void execve(String a, String[] b, String[] c) {
-		invoke(Thread.currentThread().
-					 getStackTrace()[2].
-					 getMethodName(),
-					 a, b, c);
+		invoke(
+      Thread.currentThread().
+      getStackTrace()[2].
+      getMethodName(),
+      a, b, c);
 	}
 
 	public static void fchmod(FileDescriptor a, int b) {
-		invoke(Thread.currentThread().
-					 getStackTrace()[2].
-					 getMethodName(),
-					 a, b);
+		invoke(
+      Thread.currentThread().
+      getStackTrace()[2].
+      getMethodName(),
+      a, b);
 	}
 
 	public static void fchown(FileDescriptor a, int b, int c) {
-		invoke(Thread.currentThread().
-					 getStackTrace()[2].
-					 getMethodName(),
-					 a, b, c);
+		invoke(
+      Thread.currentThread().
+      getStackTrace()[2].
+      getMethodName(),
+      a, b, c);
 	}
 
 
 	public static int fcntlFlock(FileDescriptor a, int b, StructFlock c) {
-		return (int) invoke(Thread.currentThread().
-												getStackTrace()[2].
-												getMethodName(),
-												a, b, c);
+		return (int) invoke(
+      Thread.currentThread().
+      getStackTrace()[2].
+      getMethodName(),
+      a, b, c);
 	}
 
 
 	public static int fcntlLong(FileDescriptor a, int b, long c) {
-		return (int) invoke(Thread.currentThread().
-												getStackTrace()[2].
-												getMethodName(),
-												a, b, c);
+		return (int) invoke(
+      Thread.currentThread().
+      getStackTrace()[2].
+      getMethodName(),
+      a, b, c);
 	}
 
 	public static int fcntlVoid(FileDescriptor a, int b) {
-		return (int) invoke(Thread.currentThread().
-												getStackTrace()[2].
-												getMethodName(),
-												a, b);
+		return (int) invoke(
+      Thread.currentThread().
+      getStackTrace()[2].
+      getMethodName(),
+      a, b);
 	}
 
 	public static void fdatasync(FileDescriptor a) {
-		invoke(Thread.currentThread().
-					 getStackTrace()[2].
-					 getMethodName(),
-					 a);
+		invoke(
+      Thread.currentThread().
+      getStackTrace()[2].
+      getMethodName(),
+      a);
 	}
 
 
 	public static StructStat fstat(FileDescriptor a) {
-		return (StructStat) invoke(Thread.currentThread().
-															 getStackTrace()[2].
-															 getMethodName(),
-															 a);
+		return (StructStat) invoke(
+      Thread.currentThread().
+      getStackTrace()[2].
+      getMethodName(),
+      a);
 	}
 
 	public static StructStatVfs fstatvfs(FileDescriptor a) {
-		return (StructStatVfs) invoke(Thread.currentThread().
-																	getStackTrace()[2].
-																	getMethodName(),
-																	a);
+		return (StructStatVfs) invoke(
+      Thread.currentThread().
+      getStackTrace()[2].
+      getMethodName(),
+      a);
 	}
 
 
 	public static void fsync(FileDescriptor a) {
-		invoke(Thread.currentThread().
-					 getStackTrace()[2].
-					 getMethodName(),
-					 a);
+		invoke(
+      Thread.currentThread().
+      getStackTrace()[2].
+      getMethodName(),
+      a);
 	}
 
 	public static void ftruncate(FileDescriptor a, long b) {
-		invoke(Thread.currentThread().
-					 getStackTrace()[2].
-					 getMethodName(),
-					 a, b);
+		invoke(
+      Thread.currentThread().
+      getStackTrace()[2].
+      getMethodName(),
+      a, b);
 	}
 
 	public static String gai_strerror(int a) {
-		return (String) invoke(Thread.currentThread().
-													 getStackTrace()[2].
-													 getMethodName(),
-													 a);
+		return (String) invoke(
+      Thread.currentThread().
+      getStackTrace()[2].
+      getMethodName(),
+      a);
 	}
 
 
 	public static InetAddress[] getaddrinfo(String a, StructAddrinfo b) {
-		return (InetAddress[]) invoke(Thread.currentThread().
-																	getStackTrace()[2].
-																	getMethodName(),
-																	a, b);
+		return (InetAddress[]) invoke(
+      Thread.currentThread().
+      getStackTrace()[2].
+      getMethodName(),
+      a, b);
 	}
 
 
 	public static int getegid() {
-		return (int) invoke(Thread.currentThread().
-												getStackTrace()[2].
-												getMethodName());
+		return (int) invoke(
+      Thread.currentThread().
+      getStackTrace()[2].
+      getMethodName());
 	}
 	public static String getenv(String a) {
-		return (String) invoke(Thread.currentThread().
-													 getStackTrace()[2].
-													 getMethodName(),
-													 a);
+		return (String) invoke(
+      Thread.currentThread().
+      getStackTrace()[2].
+      getMethodName(),
+      a);
 	}
 
 	public static int geteuid() {
-		return (int) invoke(Thread.currentThread().
-												getStackTrace()[2].
-												getMethodName());
+		return (int) invoke(
+      Thread.currentThread().
+      getStackTrace()[2].
+      getMethodName());
 	}
 
 	public static int getgid() {
-		return (int) invoke(Thread.currentThread().
-												getStackTrace()[2].
-												getMethodName());
+		return (int) invoke(
+      Thread.currentThread().
+      getStackTrace()[2].
+      getMethodName());
 	}
 
 	public static String getnameinfo(InetAddress a, int b) {
-		return (String) invoke(Thread.currentThread().
-													 getStackTrace()[2].
-													 getMethodName(),
-													 a, b);
+		return (String) invoke(
+      Thread.currentThread().
+      getStackTrace()[2].
+      getMethodName(),
+      a, b);
 	}
 
 	public static SocketAddress getpeername(FileDescriptor a) {
-		return (SocketAddress) invoke(Thread.currentThread().
-																	getStackTrace()[2].
-																	getMethodName(),
-																	a);
+		return (SocketAddress) invoke(
+      Thread.currentThread().
+      getStackTrace()[2].
+      getMethodName(),
+      a);
 	}
 
 	public static int getpid() {
-		return (int) invoke(Thread.currentThread().
-												getStackTrace()[2].
-												getMethodName());
+		return (int) invoke(
+      Thread.currentThread().
+      getStackTrace()[2].
+      getMethodName());
 	}
 	public static int getppid() {
-		return (int) invoke(Thread.currentThread().
-												getStackTrace()[2].
-												getMethodName());}
+		return (int) invoke(
+      Thread.currentThread().
+      getStackTrace()[2].
+      getMethodName());}
 
 	public static StructPasswd getpwnam(String a) {
-		return (StructPasswd) invoke(Thread.currentThread().
-																 getStackTrace()[2].
-																 getMethodName(),
-																 a);
+		return (StructPasswd) invoke(
+      Thread.currentThread().
+      getStackTrace()[2].
+      getMethodName(),
+      a);
 	}
 
 	public static StructPasswd getpwuid(int a) {
-		return (StructPasswd) invoke(Thread.currentThread().
-																 getStackTrace()[2].
-																 getMethodName(),
-																 a);
+		return (StructPasswd) invoke(
+      Thread.currentThread().
+      getStackTrace()[2].
+      getMethodName(),
+      a);
 	}
 
 
 	public static SocketAddress getsockname(FileDescriptor a) {
-		return (SocketAddress) invoke(Thread.currentThread().
-																	getStackTrace()[2].
-																	getMethodName(),
-																	a);
+		return (SocketAddress) invoke(
+      Thread.currentThread().
+      getStackTrace()[2].
+      getMethodName(),
+      a);
 	}
 
 	public static int getsockoptByte(FileDescriptor a, int b, int c) {
-		return (int) invoke(Thread.currentThread().
-												getStackTrace()[2].
-												getMethodName(),
-												a, b, c);
+		return (int) invoke(
+      Thread.currentThread().
+      getStackTrace()[2].
+      getMethodName(),
+      a, b, c);
 	}
 
 	public static InetAddress getsockoptInAddr(FileDescriptor a, int b, int c) {
-		return (InetAddress) invoke(Thread.currentThread().
-																getStackTrace()[2].
-																getMethodName(),
-																a, b, c);
+		return (InetAddress) invoke(
+      Thread.currentThread().
+      getStackTrace()[2].
+      getMethodName(),
+      a, b, c);
 	}
 
 	public static int getsockoptInt(FileDescriptor a, int b, int c) {
-		return (int) invoke(Thread.currentThread().
-												getStackTrace()[2].
-												getMethodName(),
-												a, b, c);
+		return (int) invoke(
+      Thread.currentThread().
+      getStackTrace()[2].
+      getMethodName(),
+      a, b, c);
 	}
 
 
 	public static StructLinger getsockoptLinger(FileDescriptor a, int b, int c) {
-		return (StructLinger) invoke(Thread.currentThread().
-																 getStackTrace()[2].
-																 getMethodName(),
-																 a, b, c);
+		return (StructLinger) invoke(
+      Thread.currentThread().
+      getStackTrace()[2].
+      getMethodName(),
+      a, b, c);
 	}
 
 	public static StructTimeval getsockoptTimeval(FileDescriptor a, int b, int c) {
-		return (StructTimeval) invoke(Thread.currentThread().
-																	getStackTrace()[2].
-																	getMethodName(),
-																	a, b, c);
+		return (StructTimeval) invoke(
+      Thread.currentThread().
+      getStackTrace()[2].
+      getMethodName(),
+      a, b, c);
 	}
 
 	public static StructUcred getsockoptUcred(FileDescriptor a, int b, int c) {
-		return (StructUcred) invoke(Thread.currentThread().
-																getStackTrace()[2].
-																getMethodName(),
-																a, b, c);
+		return (StructUcred) invoke(
+      Thread.currentThread().
+      getStackTrace()[2].
+      getMethodName(),
+      a, b, c);
 	}
 
 
 	public static int gettid() {
-		return (int) invoke(Thread.currentThread().
-												getStackTrace()[2].
-												getMethodName());
+		return (int) invoke(
+      Thread.currentThread().
+      getStackTrace()[2].
+      getMethodName());
 	}
 
 	public static int getuid() {
-		return (int) invoke(Thread.currentThread().
-												getStackTrace()[2].
-												getMethodName());
+		return (int) invoke(
+      Thread.currentThread().
+      getStackTrace()[2].
+      getMethodName());
 	}
 
 	public static String if_indextoname(int a) {
-		return (String) invoke(Thread.currentThread().
-													 getStackTrace()[2].
-													 getMethodName(),
-													 a);
+		return (String) invoke(
+      Thread.currentThread().
+      getStackTrace()[2].
+      getMethodName(),
+      a);
 	}
 
 	public static InetAddress inet_pton(int a, String b) {
-		return (InetAddress) invoke(Thread.currentThread().
-																getStackTrace()[2].
-																getMethodName(),
-																a, b);
+		return (InetAddress) invoke(
+      Thread.currentThread().
+      getStackTrace()[2].
+      getMethodName(),
+      a, b);
 	}
 
 	public static InetAddress ioctlInetAddress(FileDescriptor a, int b, String c) {
-		return (InetAddress) invoke(Thread.currentThread().
-																getStackTrace()[2].
-																getMethodName(),
-																a, b, c);
+		return (InetAddress) invoke(
+      Thread.currentThread().
+      getStackTrace()[2].
+      getMethodName(),
+      a, b, c);
 	}
 
 
 	public static int ioctlInt(FileDescriptor a, int b, MutableInt c) {
-		return (int) invoke(Thread.currentThread().
-												getStackTrace()[2].
-												getMethodName(),
-												a, b, c);
+		return (int) invoke(
+      Thread.currentThread().
+      getStackTrace()[2].
+      getMethodName(),
+      a, b, c);
 	}
 
 
 	public static boolean isatty(FileDescriptor a) {
-		return (boolean) invoke(Thread.currentThread().
-														getStackTrace()[2].
-														getMethodName(),
-														a);
+		return (boolean) invoke(
+      Thread.currentThread().
+      getStackTrace()[2].
+      getMethodName(),
+      a);
 	}
 
 	public static void kill(int a, int b) {
-		invoke(Thread.currentThread().
-					 getStackTrace()[2].
-					 getMethodName(),
-					 a, b);
+		invoke(
+      Thread.currentThread().
+      getStackTrace()[2].
+      getMethodName(),
+      a, b);
 	}
 
 	public static void lchown(String a, int b, int c) {
-		invoke(Thread.currentThread().
-					 getStackTrace()[2].
-					 getMethodName(),
-					 a, b, c);
+		invoke(
+      Thread.currentThread().
+      getStackTrace()[2].
+      getMethodName(),
+      a, b, c);
 	}
 
 	public static void listen(FileDescriptor a, int b) {
-		invoke(Thread.currentThread().
-					 getStackTrace()[2].
-					 getMethodName(),
-					 a, b);
+		invoke(
+      Thread.currentThread().
+      getStackTrace()[2].
+      getMethodName(),
+      a, b);
 	}
 
 	public static long lseek(FileDescriptor a, long b, int c) {
-		return (long) invoke(Thread.currentThread().
-												 getStackTrace()[2].
-												 getMethodName(),
-												 a, b, c);
+		return (long) invoke(
+      Thread.currentThread().
+      getStackTrace()[2].
+      getMethodName(),
+      a, b, c);
 	}
 
 
 	public static StructStat lstat(String a) {
-		return (StructStat) invoke(Thread.currentThread().
-															 getStackTrace()[2].
-															 getMethodName(),
-															 a);
+		return (StructStat) invoke(
+      Thread.currentThread().
+      getStackTrace()[2].
+      getMethodName(),
+      a);
 	}
 
 
 	public static void mincore(long a, long b, byte[] c) {
-		invoke(Thread.currentThread().
-					 getStackTrace()[2].
-					 getMethodName(),
-					 a, b, c);
+		invoke(
+      Thread.currentThread().
+      getStackTrace()[2].
+      getMethodName(),
+      a, b, c);
 	}
 
 	public static void mkdir(String a, int b) {
-		invoke(Thread.currentThread().
-					 getStackTrace()[2].
-					 getMethodName(),
-					 a, b);
+		invoke(
+      Thread.currentThread().
+      getStackTrace()[2].
+      getMethodName(),
+      a, b);
 	}
 
 	public static void mlock(long a, long b) {
-		invoke(Thread.currentThread().
-					 getStackTrace()[2].
-					 getMethodName(),
-					 a, b);
+		invoke(
+      Thread.currentThread().
+      getStackTrace()[2].
+      getMethodName(),
+      a, b);
 	}
 
 	public static long mmap(long a, long b, int c, int d, FileDescriptor e, long f) {
-		return (long) invoke(Thread.currentThread().
-												 getStackTrace()[2].
-												 getMethodName(),
-												 a, b, c, d, e, f);
+		return (long) invoke(
+      Thread.currentThread().
+      getStackTrace()[2].
+      getMethodName(),
+      a, b, c, d, e, f);
 	}
 
 	public static void msync(long a, long b, int c) {
-		invoke(Thread.currentThread().
-					 getStackTrace()[2].
-					 getMethodName(),
-					 a, b, c);
+		invoke(
+      Thread.currentThread().
+      getStackTrace()[2].
+      getMethodName(),
+      a, b, c);
 	}
 
 	public static void munlock(long a, long b) {
-		invoke(Thread.currentThread().
-					 getStackTrace()[2].
-					 getMethodName(),
-					 a, b);
+		invoke(
+      Thread.currentThread().
+      getStackTrace()[2].
+      getMethodName(),
+      a, b);
 	}
 
 	public static void munmap(long a, long b) {
-		invoke(Thread.currentThread().
-					 getStackTrace()[2].
-					 getMethodName(),
-					 a, b);
+		invoke(
+      Thread.currentThread().
+      getStackTrace()[2].
+      getMethodName(),
+      a, b);
 	}
 
 	public static FileDescriptor open(String a, int b, int c) {
-		return (FileDescriptor) invoke(Thread.currentThread().
-																	 getStackTrace()[2].
-																	 getMethodName(),
-																	 a, b, c);
+		return (FileDescriptor) invoke(
+      Thread.currentThread().
+      getStackTrace()[2].
+      getMethodName(),
+      a, b, c);
 	}
 
 	public static FileDescriptor[] pipe() {
-		return (FileDescriptor[]) invoke(Thread.currentThread().
-																		 getStackTrace()[2].
-																		 getMethodName());
+		return (FileDescriptor[]) invoke(
+      Thread.currentThread().
+      getStackTrace()[2].
+      getMethodName());
 	}
 
 	public static int poll(StructPollfd[] a, int b) {
-		return (int) invoke(Thread.currentThread().
-												getStackTrace()[2].
-												getMethodName(),
-												a, b);
+		return (int) invoke(
+      Thread.currentThread().
+      getStackTrace()[2].
+      getMethodName(),
+      a, b);
 	}
 
 
 	public static int pread(FileDescriptor a, ByteBuffer b, long c) {
-		return (int) invoke(Thread.currentThread().
-												getStackTrace()[2].
-												getMethodName(),
-												a, b, c);
+		return (int) invoke(
+      Thread.currentThread().
+      getStackTrace()[2].
+      getMethodName(),
+      a, b, c);
 	}
 
 	public static int pread(FileDescriptor a, byte[] b, int c, int d, long e) {
-		return (int) invoke(Thread.currentThread().
-												getStackTrace()[2].
-												getMethodName(),
-												a, b, c, d, e);
+		return (int) invoke(
+      Thread.currentThread().
+      getStackTrace()[2].
+      getMethodName(),
+      a, b, c, d, e);
 	}
 
 	public static int pwrite(FileDescriptor a, ByteBuffer b, long c) {
-		return (int) invoke(Thread.currentThread().
-												getStackTrace()[2].
-												getMethodName(),
-												a, b, c);
+		return (int) invoke(
+      Thread.currentThread().
+      getStackTrace()[2].
+      getMethodName(),
+      a, b, c);
 	}
 
 	public static int pwrite(FileDescriptor a, byte[] b, int c, int d, long e) {
-		return (int) invoke(Thread.currentThread().
-												getStackTrace()[2].
-												getMethodName(),
-												a, b, c, d, e);
+		return (int) invoke(
+      Thread.currentThread().
+      getStackTrace()[2].
+      getMethodName(),
+      a, b, c, d, e);
 	}
 
 	public static int read(FileDescriptor a, ByteBuffer b) {
-		return (int) invoke(Thread.currentThread().
-												getStackTrace()[2].
-												getMethodName(),
-												a, b);
+		return (int) invoke(
+      Thread.currentThread().
+      getStackTrace()[2].
+      getMethodName(),
+      a, b);
 	}
 
 	public static int read(FileDescriptor a, byte[] b, int c, int d) {
-		return (int) invoke(Thread.currentThread().
-												getStackTrace()[2].
-												getMethodName(),
-												a, b, c, d);
+		return (int) invoke(
+      Thread.currentThread().
+      getStackTrace()[2].
+      getMethodName(),
+      a, b, c, d);
 	}
 
 	public static int readv(FileDescriptor a, Object[] b, int[] c, int[] d) {
-		return (int) invoke(Thread.currentThread().
-												getStackTrace()[2].
-												getMethodName(),
-												a, b, c, d);
+		return (int) invoke(
+      Thread.currentThread().
+      getStackTrace()[2].
+      getMethodName(),
+      a, b, c, d);
 	}
 
 	public static int recvfrom(FileDescriptor a, ByteBuffer b, int c, InetSocketAddress d) {
-		return (int) invoke(Thread.currentThread().
-												getStackTrace()[2].
-												getMethodName(),
-												a, b, c, d);
+		return (int) invoke(
+      Thread.currentThread().
+      getStackTrace()[2].
+      getMethodName(),
+      a, b, c, d);
 	}
 
 	public static int recvfrom(FileDescriptor a, byte[] b, int c, int d, int e, InetSocketAddress f) {
-		return (int) invoke(Thread.currentThread().
-												getStackTrace()[2].
-												getMethodName(),
-												a, b, c, d, e, f);
+		return (int) invoke(
+      Thread.currentThread().
+      getStackTrace()[2].
+      getMethodName(),
+      a, b, c, d, e, f);
 	}
 
 	public static void remove(String a) {
-		invoke(Thread.currentThread().
-					 getStackTrace()[2].
-					 getMethodName(),
-					 a);
+		invoke(
+      Thread.currentThread().
+      getStackTrace()[2].
+      getMethodName(),
+      a);
 	}
 
 	public static void rename(String a, String b) {
-		invoke(Thread.currentThread().
-					 getStackTrace()[2].
-					 getMethodName(),
-					 a, b);
+		invoke(
+      Thread.currentThread().
+      getStackTrace()[2].
+      getMethodName(),
+      a, b);
 	}
 
 
 	public static long sendfile(FileDescriptor a, FileDescriptor b, MutableLong c, long d) {
-		return (long) invoke(Thread.currentThread().
-												 getStackTrace()[2].
-												 getMethodName(),
-												 a, b, c, d);
+		return (long) invoke(
+      Thread.currentThread().
+      getStackTrace()[2].
+      getMethodName(),
+      a, b, c, d);
 	}
 
 
 	public static int sendto(FileDescriptor a, ByteBuffer b, int c, InetAddress d, int e) {
-		return (int) invoke(Thread.currentThread().
-												getStackTrace()[2].
-												getMethodName(),
-												a, b, c, d, e);
+		return (int) invoke(
+      Thread.currentThread().
+      getStackTrace()[2].
+      getMethodName(),
+      a, b, c, d, e);
 	}
 
 	public static int sendto(FileDescriptor a, byte[] b, int c, int d, int e, InetAddress f, int g) {
-		return (int) invoke(Thread.currentThread().
-												getStackTrace()[2].
-												getMethodName(),
-												a, b, c, d, e, f, g);
+		return (int) invoke(
+      Thread.currentThread().
+      getStackTrace()[2].
+      getMethodName(),
+      a, b, c, d, e, f, g);
 	}
 
 	public static void setegid(int a) {
-		invoke(Thread.currentThread().
-					 getStackTrace()[2].
-					 getMethodName(),
-					 a);
+		invoke(
+      Thread.currentThread().
+      getStackTrace()[2].
+      getMethodName(),
+      a);
 	}
 
 	public static void setenv(String a, String b, boolean c) {
-		invoke(Thread.currentThread().
-					 getStackTrace()[2].
-					 getMethodName(),
-					 a, b, c);
+		invoke(
+      Thread.currentThread().
+      getStackTrace()[2].
+      getMethodName(),
+      a, b, c);
 	}
 
 	public static void seteuid(int a) {
-		invoke(Thread.currentThread().
-					 getStackTrace()[2].
-					 getMethodName(),
-					 a);
+		invoke(
+      Thread.currentThread().
+      getStackTrace()[2].
+      getMethodName(),
+      a);
 	}
 
 	public static void setgid(int a) {
-		invoke(Thread.currentThread().
-					 getStackTrace()[2].
-					 getMethodName(),
-					 a);
+		invoke(
+      Thread.currentThread().
+      getStackTrace()[2].
+      getMethodName(),
+      a);
 	}
 
 	public static int setsid() {
-		return invoke(Thread.currentThread().
-									getStackTrace()[2].
-									getMethodName());
+		return invoke(
+      Thread.currentThread().
+      getStackTrace()[2].
+      getMethodName());
 	}
 
 	public static void setsockoptByte(FileDescriptor a, int b, int c, int d) {
-		invoke(Thread.currentThread().
-					 getStackTrace()[2].
-					 getMethodName(),
-					 a, b, c, d);
+		invoke(
+      Thread.currentThread().
+      getStackTrace()[2].
+      getMethodName(),
+      a, b, c, d);
 	}
 
 
 	public static void setsockoptGroupReq(FileDescriptor a, int b, int c, StructGroupReq d) {
-		invoke(Thread.currentThread().
-					 getStackTrace()[2].
-					 getMethodName(),
-					 a, b, c, d);
+		invoke(
+      Thread.currentThread().
+      getStackTrace()[2].
+      getMethodName(),
+      a, b, c, d);
 	}
 
 
 	public static void setsockoptIfreq(FileDescriptor a, int b, int c, String d) {
-		invoke(Thread.currentThread().
-					 getStackTrace()[2].
-					 getMethodName(),
-					 a, b, c, d);
+		invoke(
+      Thread.currentThread().
+      getStackTrace()[2].
+      getMethodName(),
+      a, b, c, d);
 	}
 
 	public static void setsockoptInt(FileDescriptor a, int b, int c, int d) {
-		invoke(Thread.currentThread().
-					 getStackTrace()[2].
-					 getMethodName(),
-					 a, b, c, d);
+		invoke(
+      Thread.currentThread().
+      getStackTrace()[2].
+      getMethodName(),
+      a, b, c, d);
 	}
 
 	public static void setsockoptIpMreqn(FileDescriptor a, int b, int c, int d) {
-		invoke(Thread.currentThread().
-					 getStackTrace()[2].
-					 getMethodName(),
-					 a, b, c, d);
+		invoke(
+      Thread.currentThread().
+      getStackTrace()[2].
+      getMethodName(),
+      a, b, c, d);
 	}
 
 
 	public static void setsockoptLinger(FileDescriptor a, int b, int c, StructLinger d) {
-		invoke(Thread.currentThread().
-					 getStackTrace()[2].
-					 getMethodName(),
-					 a, b, c, d);
+		invoke(
+      Thread.currentThread().
+      getStackTrace()[2].
+      getMethodName(),
+      a, b, c, d);
 	}
 
 	public static void setsockoptTimeval(FileDescriptor a, int b, int c, StructTimeval d) {
-		invoke(Thread.currentThread().
-					 getStackTrace()[2].
-					 getMethodName(),
-					 a, b, c, d);
+		invoke(
+      Thread.currentThread().
+      getStackTrace()[2].
+      getMethodName(),
+      a, b, c, d);
 	}
 
 
 	public static void setuid(int a) {
-		invoke(Thread.currentThread().
-					 getStackTrace()[2].
-					 getMethodName(),
-					 a);
+		invoke(
+      Thread.currentThread().
+      getStackTrace()[2].
+      getMethodName(),
+      a);
 	}
 
 	public static void shutdown(FileDescriptor a, int b) {
-		invoke(Thread.currentThread().
-					 getStackTrace()[2].
-					 getMethodName(),
-					 a, b);
+		invoke(
+      Thread.currentThread().
+      getStackTrace()[2].
+      getMethodName(),
+      a, b);
 	}
 
 	public static FileDescriptor socket(int a, int b, int c) {
-		return (FileDescriptor) invoke(Thread.currentThread().
-																	 getStackTrace()[2].
-																	 getMethodName(),
-																	 a, b, c);
+		return (FileDescriptor) invoke(
+      Thread.currentThread().
+      getStackTrace()[2].
+      getMethodName(),
+      a, b, c);
 	}
 
 	public static void socketpair(int a, int b, int c, FileDescriptor d, FileDescriptor e) {
-		invoke(Thread.currentThread().
-					 getStackTrace()[2].
-					 getMethodName(),
-					 a, b, c, d, e);
+		invoke(
+      Thread.currentThread().
+      getStackTrace()[2].
+      getMethodName(),
+      a, b, c, d, e);
 	}
 
 
 	public static StructStat stat(String a) {
-		return (StructStat) invoke(Thread.currentThread().
-															 getStackTrace()[2].
-															 getMethodName(),
-															 a);
+		return (StructStat) invoke(
+      Thread.currentThread().
+      getStackTrace()[2].
+      getMethodName(),
+      a);
 	}
 
 	public static StructStatVfs statvfs(String a) {
-		return (StructStatVfs) invoke(Thread.currentThread().
-																	getStackTrace()[2].
-																	getMethodName(),
-																	a);
+		return (StructStatVfs) invoke(
+      Thread.currentThread().
+      getStackTrace()[2].
+      getMethodName(),
+      a);
 	}
 
 
 	public static String strerror(int a) {
-		return (String) invoke(Thread.currentThread().
-													 getStackTrace()[2].
-													 getMethodName(),
-													 a);
+		return (String) invoke(
+      Thread.currentThread().
+      getStackTrace()[2].
+      getMethodName(),
+      a);
 	}
 
 	public static String strsignal(int a) {
-		return (String) invoke(Thread.currentThread().
-													 getStackTrace()[2].
-													 getMethodName(),
-													 a);
+		return (String) invoke(
+      Thread.currentThread().
+      getStackTrace()[2].
+      getMethodName(),
+      a);
 	}
 
 	public static void symlink(String a, String b) {
-		invoke(Thread.currentThread().
-					 getStackTrace()[2].
-					 getMethodName(),
-					 a, b);
+		invoke(
+      Thread.currentThread().
+      getStackTrace()[2].
+      getMethodName(),
+      a, b);
 	}
 
 	public static long sysconf(int a) {
-		return (long) invoke(Thread.currentThread().
-												 getStackTrace()[2].
-												 getMethodName(),
-												 a);
+		return (long) invoke(
+      Thread.currentThread().
+      getStackTrace()[2].
+      getMethodName(),
+      a);
 	}
 
 	public static void tcdrain(FileDescriptor a) {
-		invoke(Thread.currentThread().
-					 getStackTrace()[2].
-					 getMethodName(),
-					 a);
+		invoke(
+      Thread.currentThread().
+      getStackTrace()[2].
+      getMethodName(),
+      a);
 	}
 
 	public static void tcsendbreak(FileDescriptor a, int b) {
-		invoke(Thread.currentThread().
-					 getStackTrace()[2].
-					 getMethodName(),
-					 a, b);
+		invoke(
+      Thread.currentThread().
+      getStackTrace()[2].
+      getMethodName(),
+      a, b);
 	}
 
 	public static int umask(int a) {
-		return (int) invoke(Thread.currentThread().
-												getStackTrace()[2].
-												getMethodName(),
-												a);
+		return (int) invoke(
+      Thread.currentThread().
+      getStackTrace()[2].
+      getMethodName(),
+      a);
 	}
 
 	public static void unsetenv(String a) {
-		invoke(Thread.currentThread().
-					 getStackTrace()[2].
-					 getMethodName(),
-					 a);
+		invoke(
+      Thread.currentThread().
+      getStackTrace()[2].
+      getMethodName(),
+      a);
 	}
 
 	public static StructUtsname uname() {
-		return (StructUtsname) invoke(Thread.currentThread().
-																	getStackTrace()[2].
-																	getMethodName());
+		return (StructUtsname) invoke(
+      Thread.currentThread().
+      getStackTrace()[2].
+      getMethodName());
 	}
 
-	/* public static int waitpid(int a, MutableInt b, int c) {
-	 return (int) invoke(Thread.currentThread().
-	 getStackTrace()[2].
-	 getMethodName(),
-	 a, b, c);
-	 }*/
+  public static int waitpid(int a, MutableInt b, int c) {
+    return (int) invoke(
+      Thread.currentThread().
+      getStackTrace()[2].
+      getMethodName(),
+      a, b, c);
+  }
 
 	public static int write(FileDescriptor a, ByteBuffer b) {
-		return (int) invoke(Thread.currentThread().
-												getStackTrace()[2].
-												getMethodName(),
-												a, b);
+		return (int) invoke(
+      Thread.currentThread().
+      getStackTrace()[2].
+      getMethodName(),
+      a, b);
 	}
 
 	public static int write(FileDescriptor a, byte[] b, int c, int d) {
-		return (int) invoke(Thread.currentThread().
-												getStackTrace()[2].
-												getMethodName(),
-												a, b, c, d);
+		return (int) invoke(
+      Thread.currentThread().
+      getStackTrace()[2].
+      getMethodName(),
+      a, b, c, d);
 	}
 
 	public static int writev(FileDescriptor a, Object[] b, int[] c, int[] d) {
-		return (int) invoke(Thread.currentThread().
-												getStackTrace()[2].
-												getMethodName(),
-												a, b, c, d);
+		return (int) invoke(
+      Thread.currentThread().
+      getStackTrace()[2].
+      getMethodName(),
+      a, b, c, d);
 	}
 
 	public static int preadBytes(FileDescriptor a, Object b, int c, int d, long e) {
-		return (int) invoke(Thread.currentThread().
-												getStackTrace()[2].
-												getMethodName(),
-												a, b, c, d, e);
+		return (int) invoke(
+      Thread.currentThread().
+      getStackTrace()[2].
+      getMethodName(),
+      a, b, c, d, e);
 	}
 
 	public static int pwriteBytes(FileDescriptor a, Object b, int c, int d, long e) {
-		return (int) invoke(Thread.currentThread().
-												getStackTrace()[2].
-												getMethodName(),
-												a, b, c, d, e);
+		return (int) invoke(
+      Thread.currentThread().
+      getStackTrace()[2].
+      getMethodName(),
+      a, b, c, d, e);
 	}
 
 	public static int readBytes(FileDescriptor a, Object b, int c, int d) {
-		return (int) invoke(Thread.currentThread().
-												getStackTrace()[2].
-												getMethodName(),
-												a, b, c, d);
+		return (int) invoke(
+      Thread.currentThread().
+      getStackTrace()[2].
+      getMethodName(),
+      a, b, c, d);
 	}
 
 	public static int recvfromBytes(FileDescriptor a, Object b, int c, int d, int e, InetSocketAddress f) {
-		return (int) invoke(Thread.currentThread().
-												getStackTrace()[2].
-												getMethodName(),
-												a, b, c, d, e, f);
+		return (int) invoke(
+      Thread.currentThread().
+      getStackTrace()[2].
+      getMethodName(),
+      a, b, c, d, e, f);
 	}
 
 	public static int sendtoBytes(FileDescriptor a, Object b, int c, int d, int e, InetAddress f, int g) {
-		return (int) invoke(Thread.currentThread().
-												getStackTrace()[2].
-												getMethodName(),
-												a, b, c, d, e, f, g);
+		return (int) invoke(
+      Thread.currentThread().
+      getStackTrace()[2].
+      getMethodName(),
+      a, b, c, d, e, f, g);
 	}
 
 	public static int umaskImpl(int a) {
-		return (int) invoke(Thread.currentThread().
-												getStackTrace()[2].
-												getMethodName(),
-												a);
+		return (int) invoke(
+      Thread.currentThread().
+      getStackTrace()[2].
+      getMethodName(),
+      a);
 	}
 
 	public static int writeBytes(FileDescriptor a, Object b, int c, int d) {
-		return (int) invoke(Thread.currentThread().
-												getStackTrace()[2].
-												getMethodName(),
-												a, b, c, d);
+		return (int) invoke(
+      Thread.currentThread().
+      getStackTrace()[2].
+      getMethodName(),
+      a, b, c, d);
 	}
 
 
@@ -884,7 +999,7 @@ public class C {
 
 	private static HashMap<String, Method> map;
 	private static Object os_instance;
-	public static int 
+	public static int
   AF_INET,
 	AF_INET6,
 	AF_UNIX,
